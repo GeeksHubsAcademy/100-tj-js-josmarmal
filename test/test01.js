@@ -1,18 +1,18 @@
-function geekshubs(i) {
+function geekshubs(index) {
     var msn = '';
 
-    for (let i = 1; i <= N; i++) {
+    for (let index = 1; index <= N; index++) {
         
-      if (i%3==0 && i%5==0) {
+      if (index%3==0 && index%5==0) {
             msn = msn + "GeeksHubs\n";
 
-        } else if (i%3==0) {
+        } else if (index%3==0) {
             msn = msn + "Geeks\n";
 
-        } else if (i%5==0) {
+        } else if (index%5==0) {
             msn = msn + "Hubs\n"
         } else {
-            msn += i+"\n"
+            msn += index+"\n"
         }
     }
     return msn;
