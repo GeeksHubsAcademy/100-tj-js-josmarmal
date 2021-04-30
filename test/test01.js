@@ -1,4 +1,4 @@
-function geekshubs(index) {
+function geekshubs(i) {
     var msn = '';
 
     for (let i = 1; i <= N; i++) {
