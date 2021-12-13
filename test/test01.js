@@ -1,6 +1,6 @@
 function geekshubs(index) {
+  let string = "";
   for (let i = 0; i <= index; i++) {
-    let string = "";
     if (i % 3 == 0) {
       string += "Geeks\n";
     } else if (i % 5 == 0) {
@@ -11,5 +11,6 @@ function geekshubs(index) {
       string += `${i}\n`;
     }
   }
+  return string;
 }
 module.exports = geekshubs;
