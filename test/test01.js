@@ -11,10 +11,9 @@ function geekshubs(index) {
 
         } else if (i%5==0) {
             msn = msn + "Hubs\n"
-        } else {
-            msn += i+"\n"
         }
     }
     return msn;
 }
+
 module.exports = geekshubs;
