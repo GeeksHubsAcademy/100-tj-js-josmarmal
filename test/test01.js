@@ -1,6 +1,6 @@
 function geekshubs(index) {
 
-    for (let i = 0; i <= index; i++) {
+    for (let i = 1; i <= index; i++) {
 
         if (num % 3 == 0) {
 
@@ -18,7 +18,6 @@ function geekshubs(index) {
         }
 
     }
-
 
 }
 module.exports = geekshubs;
