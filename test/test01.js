@@ -13,19 +13,20 @@ function geekshubs(index) {
     for (let i = 1; i <= index; i++) {
 
         if (i % 3 == 0) {
-            resultado += "Geeks"+"/n"
+            resultado += "Geeks"+"\n"
         }
         if (i % 5 == 0) {
-            resultado += "Hubs"+"/n"
+            resultado += "Hubs"+"\n"
         }
         if (i % 15 == 0) {
-            resultado += "GeeksHubs"+"/n"
+            resultado += "GeeksHubs"+"\n"
         }    
         if (i % 3 != 0 && i % 5 != 0 && i % 15 != 0) {
-            resultado += i+"/n";
+            resultado += i+"\n";
         }     
     }
 
     return resultado;
 }
+
 module.exports = geekshubs;
