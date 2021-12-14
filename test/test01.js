@@ -21,12 +21,11 @@ function geekshubs(index) {
         if (i % 15 == 0) {
             resultado += "GeeksHubs"+"/n"
         }    
-        if (i % 3 != 0 || i % 5 != 0 || i % 15 != 0) {
-            
-        }
-        resultado += i+"/n"        
+        if (i % 3 != 0 && i % 5 != 0 && i % 15 != 0) {
+            resultado += i+"/n";
+        }     
     }
 
-    return "";
+    return resultado;
 }
 module.exports = geekshubs;
