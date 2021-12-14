@@ -12,10 +12,10 @@ function geekshubs(index) {
 
     for (let i = 1; i <= index; i++) {
 
-        if (i % 3 == 0) {
+        if (i % 3 == 0 && i % 15 != 0) {
             resultado += "Geeks"+"\n"
         }
-        if (i % 5 == 0) {
+        if (i % 5 == 0 && i % 15 != 0) {
             resultado += "Hubs"+"\n"
         }
         if (i % 15 == 0) {
