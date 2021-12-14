@@ -1,4 +1,16 @@
 function geekshubs(index) {
-    return "";
+  let string = "";
+  for (let i = 1; i <= index; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      string += "GeeksHubs\n";
+    } else if (i % 5 == 0) {
+      string += "Hubs\n";
+    } else if (i % 3 == 0) {
+      string += "Geeks\n";
+    } else {
+      string += `${i}\n`;
+    }
+  }
+  return string;
 }
 module.exports = geekshubs;
