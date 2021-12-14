@@ -1,22 +1,26 @@
 function geekshubs(index) {
 
+    let cadena= '';
+
     for (let i = 1; i <= index; i++) {
 
-        if (i % 3 == 0) {
+        if ((i % 3 == 0)&&(i % 5 == 0)) {
 
-            return "Geeks";
+            cadena += "GeeksHubs\n";
+           
+        } else if (i % 3 == 0) {
 
-        } else if (i % 5 == 0) {
+            cadena += "Geeks\n";
 
-            return "Hubs";
+        } else if (i % 5 == 0){
+            
+            cadena += "Hubs\n";
 
-        } else if ((i % 3 == 0)&&(i % 5 == 0)){
-
-            return "GeeksHubs";
         } else {
-            return i;
+            cadena += `${i}\n`;
         }
-
     }
+
+    return cadena;
 }
 module.exports = geekshubs;
