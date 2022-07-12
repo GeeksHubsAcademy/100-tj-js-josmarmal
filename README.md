@@ -4,7 +4,7 @@
 </p>
 
 
-    Considere el siguiente problema:
+    Considere el siguiente problema sdaf:
 
     Escriba un programa corto que imprima un rango de números del 1 a N.
 
